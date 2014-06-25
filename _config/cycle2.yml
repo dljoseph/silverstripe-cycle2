@@ -1,0 +1,15 @@
+---
+Name: cycle2
+After:
+- 'framework/*'
+- 'cms/*'
+---
+# YAML configuration for SilverStripe
+# See http://doc.silverstripe.org/framework/en/topics/configuration
+# Caution: Indentation through two spaces, not tabs
+Page:
+  extensions:
+    - Cycle2PageExtension
+Page_Controller:
+  extensions:
+    - Cycle2Page_ControllerExtension
